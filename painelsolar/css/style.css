@@ -5,75 +5,131 @@
     
 }
 
-
-
-
-header{
-    padding:5px;
-    text-align: center;
-    display: block;
+#figure1{
+    
+    background-size: cover;
     
 }
-
-#titulo2{
-    text-align: center;
-}
-
-p{
-    font-size: smaller;
-    font-weight:100;
-}
-
-#seçao1{
-    width:33%;
-    text-align: center;
-    display:inline-block}
-
-.nossosprojetos{
-    text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
 
 h2{
     text-align: center;
-
-
 }
 
 
-    
+#seçao1{
+    text-align: center;
+    display:inline-block;
+    width: 33%;
+}
 
-
-
-
-
-#titulo1{
-    font:900;
+h1{
+    color:white;
+    text-align:left;
+    padding:290px;
+    height:800px;
+    width: 100%;
     background-image:url(../img/painelsolar.png);
-    color:white;
-    height:250px;
-    padding: 12%;
-    width:740px;
-    margin: 60px;
-
+    background-size: cover;
+    
     
 }
-button{
-    background-color: #5eb6e5;
-    color:white;
-    border-color:#5eb6e5;
-    float:;
+
+.classe2{
+    text-align: center;
+    background-size: cover;
+    width:100%;
+    
+    
 }
+
+#button2{
+    background-color:white;
+    color: #1c96df;
+
+}
+
+
+button{
+    background-color:#1c96df;
+    color:white;
+    border-color:#1c96df;
+}
+
+#seçao3{
+    text-align: center;
+    background-color:#1d3c4e;
+    color:white;
+    margin:30px;
+    
+}
+
+#seção4{
+    text-align: center;
+    display:inline-block;
+    width: 33%;
+    padding:40px 0px 40px 0px;
+    
+    
+    
+
+}
+
+h3{
+    text-align: center;
+}
+
+
+#menu{
+    background-color:rgba(68,70,69,255);
+    color:rgba(254,254,254,255);
+    padding:20px;
+}
+
+#menu>article{
+    text-align:center;
+    width:33%;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+#menu>article>ul{
+    color:aliceblue;
+    list-style: none;
+    list-style-type: none;
+    margin:20px 0px 10px 0px;
+    
+}
+
+footer{
+    text-align: left;
+    
+
+}
+
+#figurafinal{
+    text-align: right;
+    
+}
+
+p{
+    font-size:smaller;
+    margin: 25px;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+

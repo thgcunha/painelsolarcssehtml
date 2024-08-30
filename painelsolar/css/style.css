@@ -1,13 +1,190 @@
 *{
     margin:0px;
     padding:0px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
     
 }
 
-#figure1{
+@media only screen and (max-width: 768px) {
+
+    /*
+      body {
+          background-color: #743333;
     
+          
+    
+      }
+    
+      */
+
+      header>nav{
+        text-align: right;
+        margin-right: 10px;
+        
+        
+    }
+
+
+    a{
+        padding:0px;
+    }
+
+#figure1{
+    height: 60px;
     background-size: cover;
+    
+    
+
+    
+    
+}
+
+      #seçao1>article{
+    
+        /* width: 33%; */
+        
+        display:block;
+        text-align:center;
+        display: center;
+        }
+
+     
+
+        h1{
+            text-align: center;
+            background-image:url(../img/painelsolar.png);
+            height:650px;
+            color:white;
+            padding:50px;
+            
+            
+        }
+
+        button{
+            background-color:#1c96df;
+            color:white;
+            border-color:#1c96df;
+        }
+
+        #projetos{
+            text-align: center;
+        }
+
+       
+
+        h2{
+            text-align: center;
+        }
+
+        #figure1{
+            text-align:left;
+        }
+
+        .classe2{
+            text-align: center;
+            background-size: cover;
+            width:100%;
+            
+            
+        }
+    
+        
+    
+    #seçao2>article{
+    
+          /* width: 33%; */
+          /* display:inline-block; */
+          display:block;
+          text-align:center;
+          display: center;
+          }
+        
+    #seçao3{
+        
+            /* width: 33%; */
+            /* display:inline-block; */
+            text-align:center;
+            display:block;
+            display: center;
+            background-color:#1d3c4e;
+            color:white;
+            margin:30px;
+            
+            
+            }
+
+            #menu{
+                background-color:rgba(68,70,69,255);
+                color:rgba(254,254,254,255);
+                padding:20px;
+            }
+
+           
+    #seçao4{
+        
+              /* width: 33%; */
+              /* display:inline-block; */
+              text-align:center;
+              display:block;
+              display: center;
+              }
+    
+    article{
+      text-align:center;
+      display:block;
+      display: center;
+                }         
+    
+    article{
+      text-align:center;
+      display:block;
+      display: center;
+                } 
+    footer{
+      text-align:center;
+      display:block;
+      display: center;
+                } 
+    
+    }
+                
+    
+      
+        
+    ul>li{
+      list-style-type: none;
+      display: block;
+    }
+
+@media only screen and (min-width: 769px){
+
+    header{
+        background-color: #ffffff;
+    }
+   
+
+    header>nav{
+        text-align: right;
+        margin-right:160px;
+        
+       
+        
+        
+        
+    }
+
+    a{
+        padding: 20px;
+    }
+
+#figure1{
+    height: 60px;
+    background-size: cover;
+    
+    
+
+    
     
 }
 
@@ -116,6 +293,9 @@ p{
     font-size:smaller;
     margin: 25px;;
 }
+}
+
+
 
 
 
